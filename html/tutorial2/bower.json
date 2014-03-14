@@ -1,0 +1,9 @@
+{
+  "name": "app",
+  "dependencies": {
+    "jquery": "*",
+    "bootstrap": "*",
+    "underscore":"*",
+      "flatui":"*"
+  }
+}

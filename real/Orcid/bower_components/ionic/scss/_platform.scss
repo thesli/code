@@ -1,0 +1,53 @@
+
+/**
+ * Platform
+ * --------------------------------------------------
+ */
+
+.platform-ios7 {
+  .bar-header {
+    height: 64px;
+
+    &.item-input-inset .item-input-wrapper {
+      margin-top: 19px !important;
+    }
+
+    > * {
+      margin-top: 20px;
+    }
+  }
+
+  .has-header {
+    top: 64px;
+  }
+
+  .bar-subheader {
+    top: 64px;
+  }
+
+  .has-subheader {
+    top: 108px;
+  }
+}
+
+.platform-android {
+  .bar-header {
+    height: 48px;
+  }
+
+  .has-header {
+    top: 48px;
+  }
+
+  .bar-subheader {
+    top: 48px;
+  }
+
+  .has-subheader {
+    top: 96px;
+  }
+
+  .title {
+    line-height: 48px;
+  }
+}

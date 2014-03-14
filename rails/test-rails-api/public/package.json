@@ -1,0 +1,7 @@
+{
+    "name":"rails-api-angular",
+    "dependencies":{
+        "grunt-cli":"*",
+        "grunt-contrib-watch":"*"
+    }
+}

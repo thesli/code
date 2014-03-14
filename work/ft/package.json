@@ -1,0 +1,9 @@
+{
+    "name": "ft",
+    "dependencies":{
+        "express":"*",
+        "connect":"*",
+        "socket.io":"*",
+        "mongoskin":"*"
+    }
+}

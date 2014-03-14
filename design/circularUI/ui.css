@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+#circular-wrapper {
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  background: #f00;
+  border-bottom-right-radius: 100%;
+/*opacity 0.4*/
+}
+.item {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background: #00f;
+  position: absolute;
+}
+.item:nth-child(1) {
+  left: 50.00046689999999px;
+  top: 86.6022708px;
+}
+.item:nth-child(2) {
+  left: 86.6030795px;
+  top: 49.999066199999994px;
+}
+.item:nth-child(3) {
+  left: 100px;
+  top: -0.0016173px;
+}
+.item:hover {
+  background: #ff0;
+}

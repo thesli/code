@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "inject.js",
+  "sourceRoot": "",
+  "sources": [
+    "inject.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA;AAAA"
+}

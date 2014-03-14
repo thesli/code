@@ -1,0 +1,9 @@
+{
+    "name":"ft",
+    "dependencies":{
+        "angular":"*",
+        "ionic":"*",
+        "jquery":"*",
+        "jquery-ui":"*"
+    }
+}

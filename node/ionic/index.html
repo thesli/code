@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="bower_components/angular/angular-csp.css"/>
+    <link rel="stylesheet" href="bower_components/ionic/dist/css/themes/ionic-ios7.css"/>
+    <link rel="stylesheet" href="bower_components/ionic/dist/css/ionic.css"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no"/>
+</head>
+<body ng-app="app">
+
+
+<side-menus>
+
+    <!-- Center content -->
+    <pane side-menu-content>
+        <header-bar title="'Header'">
+        </header-bar>
+        <tabs>
+            <tab title="Alarm" icon-on="ion-ios7-alarm" icon-off="ion-ios7-alarm-outline">
+                <header-bar title="'alarm'"></header-bar>
+                <content has-header="true"><h1>Alarm</h1></content>
+            </tab>
+            <tab title="Timer" icon-on="ion-ios7-timer" icon-off="ion-ios7-timer-outline">
+                <content has-header="true"><h1>Timer</h1></content>
+            </tab>
+            <tab title="Stopwatch" icon-on="ion-ios7-stopwatch" icon-off="ion-ios7-stopwatch-outline">
+                <content has-header="true"><h1>Stopwatch</h1></content>
+            </tab>
+        </tabs>
+    </pane>
+
+    <!-- Left menu -->
+    <side-menu side="left">
+        <header-bar title="'fuck'"></header-bar>
+        <content has-header="true">
+            <list>
+                <item>item 1</item>
+                <item>item 2</item>
+            </list>
+        </content>
+    </side-menu>
+    <!-- Right menu -->
+    <side-menu side="right">
+        <header-bar title="'checkout'"></header-bar>
+        <content has-header="true" padding>
+
+            <list>
+                <item>item 1</item>
+                <item>item 2</item>
+            </list>
+
+            <div class="list card">
+
+                <div class="item item-avatar">
+                    <img src="avatar.jpg">
+                    <h2>Pretty Hate Machine</h2>
+                    <p>Nine Inch Nails</p>
+                </div>
+
+                <div class="item item-image">
+                    <qrcode data="fuck you" size="100%"></qrcode>
+                </div>
+
+                <a class="item item-icon-left assertive" href="#">
+                    <i class="icon ion-music-note"></i>
+                    Start listening
+                </a>
+
+            </div>
+        </content>
+    </side-menu>
+
+
+</side-menus>
+
+
+</body>
+<script src="bower_components/ionic/dist/js/angular/angular.js"></script>
+<script src="bower_components/ionic/dist/js/angular/angular-animate.js"></script>
+<script src="bower_components/ionic/dist/js/angular/angular-route.js"></script>
+<script src="bower_components/ionic/dist/js/angular/angular-touch.js"></script>
+<script src="bower_components/ionic/dist/js/angular/angular-sanitize.js"></script>
+<script src="bower_components/ionic/dist/js/ionic.js"></script>
+<script src="bower_components/ionic/dist/js/ionic-angular.js"></script>
+<script src="bower_components/qrcode-generator/js/qrcode.js"></script>
+<script src="bower_components/angular-qrcode/qrcode.js"></script>
+<script src="js/app.js"></script>
+</html>

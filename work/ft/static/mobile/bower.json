@@ -1,0 +1,8 @@
+{
+    "name":"ft.mobile",
+    "dependencies":{
+        "angular":"*",
+        "ionic":"*",
+        "angular-qrcode":"*"
+    }
+}

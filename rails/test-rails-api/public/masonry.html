@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .eventBox{
+            width: 250px;
+            min-height: 200px;
+            border: 1px black solid;
+            border-radius: 5px;
+            position: relative;
+        }
+        .bottom{
+            bottom:0%;
+            width: 100%;
+            position: absolute;
+            background: rgba(255, 20, 147,1);
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        .bottom:hover{
+            background: rgba(255,20,147,0.1);
+        }
+        .author{
+            margin:5px;
+            float:left;
+        }
+        .username{
+            line-height: 2px;
+        }
+        .type{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="eventBox">
+    <div class="bottom">
+        <img src="http://placehold.it/25/25" alt="" class="author"/>
+        <div class="wrapper"><span class="username">this is me</span><span class="type">something</span></div>
+    </div>
+</div>
+
+</body>
+<script src="bower_components/masonry/masonry.js"></script>
+<script src="bower_components/jquery/jquery.js"></script>
+<script src="js/m.js"></script>
+</html>

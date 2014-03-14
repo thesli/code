@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="bower_components/ionic/dist/css/ionic.css"/>
+    <link rel="stylesheet" href="bower_components/ionic/dist/css/themes/ionic-ios7.css"/>
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="bower_components/jquery-ui/ui/jquery-ui.js"></script>
+    <script src="bower_components/ionic/dist/js/ionic.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/ionic/dist/js/angular/angular-animate.js"></script>
+    <script src="bower_components/ionic/dist/js/angular/angular-sanitize.js"></script>
+    <script src="bower_components/ionic/dist/js/angular/angular-cookies.js"></script>
+    <script src="bower_components/ionic/dist/js/angular/angular-route.js"></script>
+    <script src="bower_components/ionic/dist/js/angular/angular-touch.js"></script>
+    <script src="bower_components/ionic/dist/js/ionic-angular.js"></script>
+    <script src="js/test.js"></script>
+</head>
+<body ng-app="test">
+
+<div ng-controller="testCtrl">
+    <list on-reorder="re(1,2,3)" can-reorder="true" show-reorder="true">
+        <item ng-repeat="item in items" item="item">
+            {{item}}
+        </item>
+    </list>
+</div>
+
+
+</body>
+</html>

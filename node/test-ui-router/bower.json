@@ -1,0 +1,8 @@
+{
+    "name": "test-ui-router",
+    "dependencies":{
+        "angular":"*",
+        "angular-ui-router":"*",
+        "foundation":"*"
+    }
+}

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+        #t {
+            background-image: -webkit-gradient(
+            linear,
+            left top,
+            right bottom,
+            color-stop(0.11,rgb(167,9,246)),
+            color-stop(0.60,rgb(194,242,242))
+            );
+            -webkit-transform: rotate(.125turn);
+
+        }
+        #t1{
+            background-image: linear-gradient(to bottom,rgb(167,9,246),rgb(194,242,242));
+            -webkit-transform: rotate(.05turn) scaleX(0.5) scaleY(0.5);
+        }
+        #t2{
+            background: linear-gradient(to bottom,white,black);
+            -webkit-transform: skewX(21deg) skewY(50deg) translate(50px,50px);
+        }
+        #t3{
+            background: linear-gradient(to top,red 50%,yellow 20%);
+        }
+        #t3:hover{
+            background: linear-gradient(to bottom,grey 20%,grey 30%,ghostwhite 50%);
+            -webkit-transform: rotate(2.5turn);
+            opacity: 0.3;
+            -webkit-transition: infinite;
+            -webkit-transition-duration: 2s,4s;
+        }
+        #t4{
+            background: linear-gradient(to top,purple 20%,mediumpurple 50%);
+            -webkit-transition-property: opacity, left;
+            -webkit-transition-duration: 2s,4s;
+            display:block;
+            position: relative;
+            left:20%;
+        }
+        #t4:hover{
+            opacity: .2;
+            left: 50%;
+        }
+        .hidden{
+            display: none;
+        }
+        #t5{
+            /*background-image: -webkit-repeating-linear-gradient(left top,green 20%,blue 70%);*/
+            background-image: linear-gradient(100deg,red 10%,green 20%,yellow 70%);
+        }
+        #t6{
+            background-image: radial-gradient(ellipse,black 20%,white,green,blue,red,yellow);
+            width: 200px;
+        }
+        #t7{
+            background-image: repeating-radial-gradient(circle,black,white,green,blue,red,yellow);
+            /*width: 500px;*/
+            display: block;
+        }
+        #t8{
+            position: relative;
+            background-image: linear-gradient(45deg,rgba(0,0,0,0),green);
+            transition-property: left,opacity;
+            transition: 5s 1s;
+            opacity: 0.5;
+        }
+        #t8:hover{
+            left:200px;
+            opacity:1;
+        }
+        .right{
+            position: relative;
+            right:0;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+
+<div class="hidden"><div id="t"></div>
+<div id="t1"></div>
+<div id="t2"></div>
+<div id="t3"></div>
+<div id="t4"></div></div>
+<div id="t5"></div>
+<div id="t6"></div>
+<div id="t7"></div>
+<div id="t8"></div>
+<div id="t9"></div>
+<div id="t10"></div>
+<div class="right">
+    <div class="t"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+h1{
+    position: relative;
+}
+
+span.glyphicon.glyphicon-book{
+    /*font-size: 50px;*/
+}
+
+td{
+    padding: 5px 5px 5px 5px;
+    border: dashed red 1px;
+    min-width: 50px;
+}
+
+#loading{
+    opacity: 0;
+}
+
+#frame{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}

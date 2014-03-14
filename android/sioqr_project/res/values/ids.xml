@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="frontCamFrame" type="id"/>
+    <item name="scanTextBtn" type="id"/>
+    <item name="scanText" type="id"/>
+</resources>

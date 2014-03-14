@@ -1,0 +1,7 @@
+{
+    "name":"cater",
+    "dependencies":{
+        "express":"*",
+        "socket.io":"*"
+    }
+}

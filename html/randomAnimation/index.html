@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        @-webkit-keyframes tada{
+            0%{
+                opacity: 0;
+            }
+            33%{
+                -webkit-transform: rotate(45deg); 
+            }
+            50%{
+                opacity: 1;
+            }
+            66%{
+                -webkit-transform: rotate(-45deg);
+            }
+            100%{
+                -webkit-trasform: rotate(0deg);
+                opacity: 0;
+            }            
+        }
+        .ani{
+            -webkit-animation: tada 2s ease-in 0.5s infinite;
+        }
+        img{
+            opacity: 0;
+        }
+    </style>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+    <script src="bower_components/jquery/jquery.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+
+<img class="ani" src="http://www.placekitten.com/100/100" alt=""/>
+<button>fuck</button>
+</body>
+</html>

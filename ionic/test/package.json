@@ -1,0 +1,6 @@
+{
+    "name":"ionic",
+    "dependencies":{
+        "express":"*"
+    }
+}

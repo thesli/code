@@ -1,0 +1,8 @@
+{
+    "name":"food",
+    "dependencies":{
+        "angular":"*",
+        "ionic":"*",
+        "angular-qrcode":"*"
+    }
+}

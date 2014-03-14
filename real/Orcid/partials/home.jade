@@ -1,0 +1,7 @@
+view(title="'Home'")
+    content(has-header="true",padding="true")
+        h1 hola
+        span {{items}}
+        span {{hello}}
+        list
+            item(ng-repeat="food in foods",item='food'): a(href="#/tabs/home/{{food}}") {{food}}

@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body ng-app="app">
+<div ng-controller="testCtrl">
+    <input type="text" ng-model="bookname"/>
+    <input type="submit" ng-click="make(bookname)"/>
+    <ul>
+        <li ng-repeat="book in books">
+            {{book.name}}
+        </li>
+    </ul>
+ </div>
+</body>
+<script src="bower_components/angular-ui-router/lib/angular-1.1.5.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="bower_components/angular-rails-resource/angular-rails-resource.js"></script>
+<script src="js/main.js"></script>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "angularjs-rails-resource",
+  "version": "0.2.5",
+  "main": "angularjs-rails-resource.js",
+  "description": "A resource factory inspired by $resource from AngularJS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FineLinePrototyping/dist-angularjs-rails-resource.git"
+  },
+  "dependencies": {
+    "angular": "*"
+  }
+}

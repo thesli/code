@@ -1,0 +1,8 @@
+{
+    "name": "counselling mail",
+    "dependencies":{
+        "angular" : "*",
+        "jquery": "*",
+        "foundation": "*"
+    }
+}

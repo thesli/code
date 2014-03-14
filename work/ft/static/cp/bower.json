@@ -1,0 +1,10 @@
+{
+    "name":"ft.cp",
+    "dependencies":{
+        "angular":"*",
+        "angular-ui":"*",
+        "ionic":"*",
+        "jquery":"*",
+        "jquery-ui":"*"
+    }
+}

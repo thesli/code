@@ -1,0 +1,10 @@
+{
+    "name": "rails-api-angular",
+    "dependencies":{
+        "angular":"*",
+        "angular-ui-router":"*",
+        "angularjs-rails-resource":"*",
+        "foundation":"*",
+        "masonry": "*"
+    }
+}

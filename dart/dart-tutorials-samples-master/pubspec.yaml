@@ -1,0 +1,12 @@
+name: tutorialsamples
+description: A sample application
+environment:
+  sdk: any
+dependencies:
+  browser: any
+  hop: any
+  http: any
+  oauth2: any
+  pathos: any
+  polymer: any
+  args: any

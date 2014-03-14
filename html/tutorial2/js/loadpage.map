@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "loadpage.js",
+  "sourceRoot": "",
+  "sources": [
+    "loadpage.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,EAAA,CAAA,CAAE,SAAA,GAAA,CAAF,CAAA,CAAA;AAAA"
+}

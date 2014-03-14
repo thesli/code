@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+    <title>DEALs</title>
+    <link rel="stylesheet" href="bower_components/ionic/dist/css/ionic.css"/>
+    <link rel="stylesheet" href="bower_components/ionic/dist/css/themes/ionic-ios7.css"/>
+    <script src="bower_components/qrcode-generator/js/qrcode.js"></script>
+    <script src="bower_components/ionic/dist/js/ionic.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/ionic/dist/js/angular/angular-animate.js"></script>
+    <script src="bower_components/ionic/dist/js/angular/angular-sanitize.js"></script>
+    <script src="bower_components/ionic/dist/js/angular/angular-cookies.js"></script>
+    <script src="bower_components/ionic/dist/js/angular/angular-route.js"></script>
+    <script src="bower_components/ionic/dist/js/angular/angular-touch.js"></script>
+    <script src="bower_components/ionic/dist/js/ionic-angular.js"></script>
+    <script src="bower_components/angular-qrcode/qrcode.js"></script>
+</head>
+<body ng-app="ft.mobile">
+
+<side-menus>
+    <pane side-menu-content ng-controller="sideMenuCtrl">
+        <header-bar title="'MAIN'" align-title="center" type="bar-positive" ng-click="t()"></header-bar>
+        <content has-header="true">
+            <ng-view></ng-view>
+        </content>
+        <div class="tabs" ng-controller="tabsCtrl">
+            <a class="tab-item" ng-click="toggleLeft()">
+                MENU
+            </a>
+            <a class="tab-item">
+                DEALS
+            </a>
+            <a class="tab-item" ng-click="toggleRight()">
+                CHECKOUT
+                <span ng-if="amount!=0">{{amount}}$</span>
+            </a>
+        </div>
+    </pane>
+    <side-menu side="left">
+        <header-bar title="'MENUS'" align-title="center" type="bar-positive"></header-bar>
+    </side-menu>
+    <side-menu side="right">
+        <header-bar title="'CHECKOUT'" align-title="center" type="bar-positive"></header-bar>
+        <content has-header="true">
+            <div ng-controller="qrcodeCtrl">
+                <div ng-if="qrSuccess">
+                    <qrcode data="{{test}}"></qrcode>
+                </div>
+                <button ng-click="testRest()">TEST</button>
+            </div>
+        </content>
+    </side-menu>
+</side-menus>
+
+
+
+</body>
+<script src="js/app.js"></script>
+
+</html>

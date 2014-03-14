@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/web/test.dart.js" />
+        <item url="file://$PROJECT_DIR$/web/script.dart.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/web/test.dart.js" />
+      <root url="file://$PROJECT_DIR$/web/test.dart.js" />
+      <root url="file://$PROJECT_DIR$/web/script.dart.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

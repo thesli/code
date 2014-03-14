@@ -1,0 +1,10 @@
+{
+    "name": "mailing",
+    "dependencies":{
+        "express": "*",
+        "nodemailer": "*",
+        "tower": "*",
+        "mysql": "*",
+        "tower-adapter": "*"
+    }
+}

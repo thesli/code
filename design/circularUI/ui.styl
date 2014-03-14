@@ -1,0 +1,30 @@
+$themeColor = red
+$uiSize = 150px
+$uiInnerOffset = 50px
+$uiInnerRadius = $uiSize - $uiInnerOffset
+$uiItem = 30px
+
+PI = 3.141625
+DEG = PI / 180
+
+body{
+  margin: 0
+}
+
+#circular-wrapper{
+  position: fixed
+  width: $uiSize
+  height: $uiSize
+  background $themeColor
+  border-bottom-right-radius 100%
+  /*opacity 0.4*/
+}
+
+.item
+  border-radius 50%
+  width: $uiItemffff:nth-child({row})
+      $angle = 30 * DEG * (row)
+      left ($uiInnerRadius * sin($angle))px;
+      top ($uiInnerRadius * cos($angle))px;
+  &:hover
+    background yellow

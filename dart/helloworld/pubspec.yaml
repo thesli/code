@@ -1,0 +1,4 @@
+name: helloworld
+dependencies:
+  browser: any
+  polymer: any

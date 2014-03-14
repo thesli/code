@@ -1,0 +1,33 @@
+{
+  "name": "semicolon",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dchest/semicolon-js",
+  "authors": [
+    "Dmitry Chestnykh <dmitry@codingrobots.com>"
+  ],
+  "description": "The most useful JavaScript library for cargo cult programmers",
+  "main": "semicolon.js",
+  "keywords": [
+    "semicolon",
+    "concatenation"
+  ],
+  "license": "Public domain",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "package.json"
+  ],
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.1",
+    "commit": "959a149fac2542f290d5bb4933129c9afeb9e765"
+  },
+  "_source": "git://github.com/dchest/semicolon-js.git",
+  "_target": "~0.0.1",
+  "_originalSource": "semicolon",
+  "_direct": true
+}
