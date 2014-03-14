@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Doodle Poll</title>
+    <link rel="stylesheet" href="bower_components/dangle/css/dangle.css"/>
+    <link rel="stylesheet" href="bower_components/foundation/css/foundation.css"/>
+    <style>
+        .wrap {
+            background: linear-gradient(to bottom,red 20%,yellow 70%);
+            height: 50px;
+        }
+        .column.medium-3{
+            position: relative;
+        }
+        .c{
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body ng-app="app">
+
+<div ng-controller="testCtrl">
+    <div class="wrap">
+        <div class="row"></div>
+    </div>
+    <div class="row">
+        <div class="columns">
+            <div class="column medium-3">
+                <div class="medium-centered">medium 3</div>
+            </div>
+            <div class="column medium-3">
+                <div class="c">centered!!</div>
+            </div>
+            <div class="column medium-3">
+                medium 3
+            </div>
+            <div class="column medium-3">
+                medium 3
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/d3/d3.js"></script>
+<script src="bower_components/dangle/dist/dangle.module.js"></script>
+<script src="bower_components/dangle/dist/dangle.donut.js"></script>
+<script src="js/app.js"></script>
+</html>

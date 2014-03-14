@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        img{
+            margin: 10px 10px 10px 10px;
+            position: relative;
+        }
+        @-webkit-keyframes tada{
+            33%{-webkit-transform:rotate(25deg)}
+            66%{-webkit-transform:rotate(-25deg)}
+            100%{-webkit-transform:rotate(0deg)}
+        }
+        .ani{
+            -webkit-animation: tada 1s;
+            animation: tada 1s;
+        }
+
+    </style>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('body').on('DOMNodeInserted','img',function(event){
+                $(event.target).addClass('ani');
+            });
+            i = 0;
+            $('button').on("click",function(){
+                setInterval(function(){
+                    if(i<20){
+                        var number = Math.round(300*Math.random(),0).toString();
+                        console.log(number);
+                        $('body').prepend('<img src="http://placekitten.com/g/200/300" alt=""/>');
+                        i++;
+                    }
+                },1000);
+            });
+        })
+    </script>
+</head>
+<body>
+<a href="#">something</a>
+<img class="ani" src="http://placehold.it/200/200" alt=""/>
+
+<button>fuck</button>
+</body>
+</html>

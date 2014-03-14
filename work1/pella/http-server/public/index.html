@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pella</title>
+</head>
+<body ng-app="Pella">
+{{date}}
+<div ng-include="topbar">
+
+</div>
+
+<ui-view></ui-view>
+
+</body>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-rails-resource/angularjs-rails-resource.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="js/config.js"></script>
+<script src="js/services/factory.js"></script>
+<script src="js/controllers/controller.js"></script>
+</html>

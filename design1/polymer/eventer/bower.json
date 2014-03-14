@@ -1,0 +1,9 @@
+{
+  "name": "polymerEventer",
+  "dependencies": {
+    "jquery": "*",
+    "polymer": "*",
+    "coffee-script": "*",
+    "masonry": "~3.1.4"
+  }
+}

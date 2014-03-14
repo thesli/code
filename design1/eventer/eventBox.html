@@ -1,0 +1,22 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<polymer-element name="hello-world" attributes="">
+    <template>
+        <span id="sp" on-click="{{changeColor}}"><b>HELLO</b></span>
+
+        <span>{{random}}</span>
+        <br/>
+        <h1 id="other">other</h1>
+    </template>
+    <script>
+        Polymer('hello-world', {
+            'changeColor': function(){
+                this.$.sp.style.color = 'red';
+                this.$.sp.innerHTML += "fuck!!";
+                this.$.sp.innerHTML += Math.random().toString();
+                this.$.other.innerHTML += Math.random().toString();
+            }
+        });
+        console.log($);
+    </script>
+</polymer-element>

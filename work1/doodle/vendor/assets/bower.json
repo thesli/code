@@ -1,0 +1,8 @@
+{
+    "name":"doodle",
+    "dependencies":{
+        "angular":"*",
+        "angular-route":"*",
+        "foundation":"*"
+    }
+}

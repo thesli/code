@@ -1,0 +1,9 @@
+{
+    "name":"Pella",
+    "dependencies":{
+        "angular":"*",
+        "angular-rails-resource":"*",
+        "masonry":"*",
+        "angular-ui-router":"*"
+    }
+}

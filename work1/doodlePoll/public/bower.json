@@ -1,0 +1,10 @@
+{
+    "name":"doodlePoll",
+    "dependencies":{
+        "angular":"*",
+        "d3":"*",
+        "dangle":"*",
+        "foundation":"*",
+        "socket.io":"*"
+    }
+}

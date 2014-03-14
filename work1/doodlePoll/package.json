@@ -1,0 +1,8 @@
+{
+    "name":"doodlePoll",
+    "dependencies":{
+        "express":"*",
+        "socket.io":"*",
+        "mongoskin":"*"
+    }
+}

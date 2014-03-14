@@ -1,0 +1,9 @@
+extends layout
+
+block head
+    script(src="js/script.js")
+
+block content
+    div(ng-app='orchid')
+        nav-bar(animation="nav-title-slide-ios7",type="bar-assertive",back-button-type="button-icon",back-button-icon="ion-arrow-left-c")
+        nav-view(animation="slide-left-right")

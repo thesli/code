@@ -1,0 +1,8 @@
+{
+    "name":"orchid",
+    "dependencies":{
+        "socket.io":"*",
+        "angular":"*",
+        "ionic":"*"
+    }
+}
